@@ -1,12 +1,15 @@
-var express = require('express');
-var path = require('path');
-var open = require('open');
+import express from 'express';
+import path from 'path';
+import open from 'open';
 
-var port = 3000;
+const port = 3000;
 
-var app = express();
+//create an instance of express
+const app = express();
 //tell express which route to use
+//any references to the route should be handled by this function it takes request and response
 app.get('/', function (req,res ) {
+    //dirname gets the directory name we are presently running in
     res.sendFile(path.join(__dirname, '../src/index.html'))
     
 })

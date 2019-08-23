@@ -2,7 +2,11 @@
   "name": "first_node_app",
   "version": "1.0.0",
   "description": "JavaScript development environment Pluralsight course by Olokpa Aghogho",
-  "scripts": {},
+  "scripts": {
+    "prestart": "babel-node buildScripts/startMessage.js",
+    "start": "babel-node buildScripts/srcServer.js",
+    "security-check": "nsp-check"
+  },
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
