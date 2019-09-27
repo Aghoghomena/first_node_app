@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Adeoye",
+      "lastName": "Akano",
+      "email": "adeoye@loyaltysolutionsnigeria.com"
+    },
+    {
+      "id":2,
+      "firstName": "Simisola",
+      "lastName": "Aladenaye",
+      "email": "simisolaaladenaye@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Aghogho",
+      "lastName": "Olokpa",
+      "email": "test34@loyaltysolutionsnigeria.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Simisola",
+      "lastName": "Aladenaye",
+      "email": "simisola@loyaltysolutionsnigeria.com"
+    }
+  ]
+}
